@@ -18,7 +18,7 @@ export default function Home() {
       <header className={styles.header}>
         <div className={styles.logo}>
           <h2>LOGO</h2>
-          <Image></Image>
+          {/* <Image></Image> */}
         </div>
         <nav className={styles.navbar}>
           <ul className={styles.navigation_list}>
