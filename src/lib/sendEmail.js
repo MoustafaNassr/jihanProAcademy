@@ -2,12 +2,12 @@ import nodemailer from "nodemailer";
 
 export default async function sendEmail(email) {
   const transporter = nodemailer.createTransport({
-    host: "smtp.yahoo.mail.com",
-    port: 465,
+    host: "",
+    port: "",
     secure: true,
     auth: {
-      user: "jihan.academy@apexnile.com",
-      pass: "112233",
+      user: "",
+      pass: "",
     },
   });
 
