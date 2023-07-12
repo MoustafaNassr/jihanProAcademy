@@ -59,6 +59,7 @@ export default function Home() {
               <div className={styles.input_wrapper}>
                 <label htmlFor="">
                   <input
+                    name="email"
                     className={styles.email}
                     type="email"
                     placeholder="Please enter your email address"
@@ -68,7 +69,6 @@ export default function Home() {
                   className={styles.submit_btn}
                   type="submit"
                   value="Notify Me"
-                  href=""
                 />
               </div>
             </form>
