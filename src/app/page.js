@@ -17,8 +17,13 @@ export default function Home() {
     <main className={styles.main}>
       <header className={styles.header}>
         <div className={styles.logo}>
-          <h2>LOGO</h2>
-          {/* <Image></Image> */}
+          {/* <h2>LOGO</h2> */}
+          <Image
+            src="/jaaaaaa-white.png"
+            width={60}
+            height={60}
+            alt="Logo Image"
+          />
         </div>
         <nav className={styles.navbar}>
           <ul className={styles.navigation_list}>
@@ -35,9 +40,9 @@ export default function Home() {
             </li>
           </ul>
         </nav>
-        <div className={styles.App_Btn}>
+        {/* <div className={styles.App_Btn}>
           <h3>BTN</h3>
-        </div>
+        </div> */}
       </header>
 
       <div className={styles.wrapper}>
