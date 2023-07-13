@@ -58,7 +58,7 @@ export default function Home() {
           <section>
             <form
               className={styles.form}
-              action="https://formsubmit.io/jihan.acadmey@apexnile.com"
+              action="https://formsubmit.io/send/304a36a7-8fc7-4d14-a1ef-d0732adcdac6"
               method="POST"
             >
               <div className={styles.input_wrapper}>
